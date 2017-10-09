@@ -32,7 +32,8 @@ Imports:
     pkgbuild,
     pkgload,
     sessioninfo,
-    rcmdcheck
+    rcmdcheck,
+    archive
 Suggests:
     curl (>= 0.9),
     crayon,
@@ -59,7 +60,8 @@ Remotes:
   r-lib/sessioninfo,
   r-lib/usethis,
   r-hub/rhub,
-  rstudio/rstudioapi
+  rstudio/rstudioapi,
+  jimhester/archive
 License: GPL (>= 2)
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1
